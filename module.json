@@ -1,0 +1,193 @@
+{
+	"name": "LS Wing",
+	"type": "OSC",
+	"path": "Hardware",
+	
+	"version": "1.0",
+	"description": "Allow you to control a LightShark's LS-Wing with Chataigne",
+	"url":"",
+	"downloadURL": "",
+	
+	"hasInput": true,
+	"hasOutput": true,
+
+	"hideDefaultCommands": true,
+	"hideDefaultParameters": [],
+
+	"defaults": {
+		"OSC Input": {
+			"localPort" : 9000,
+		},
+		"OSC Outputs": {
+			"OSC Output": {
+				"local" : false,
+				"remoteHost" : "lswing.local",
+				"remotePort" : 8000,
+				"listenToFeedback":false  }  }
+	},
+	
+	"parameters": {
+	},
+	
+	"scripts": [ "lswing.js" ],
+	
+	"values": {
+	},
+	
+	
+	
+"commands": {
+
+
+	
+	"Push Button" : {
+			"menu" : "Control",
+			"callback" : "push_button",
+			"parameters" : {
+			
+				"Page": {
+					"type": "Enum",
+					"options" : {
+						"Page1" : 1,
+						"Page2" : 2 } }, 
+					
+				"Button N°": {
+					"type": "Integer",
+					"default": 1, 
+					"min":1,
+					"max":60,
+					"useForMapping": true }, 
+					
+				"Choice": {
+					"type": "Enum",
+					"options" : {
+						"Press" : 1,
+						"Release" :0 } }		
+			} },
+			
+		"Toggle Button" : {
+			"menu" : "Control",
+			"callback" : "toggle_button",
+			"parameters" : {
+			
+				"Page": {
+					"type": "Enum",
+					"options" : {
+						"Page1" : 1,
+						"Page2" : 2 } }, 
+					
+				"Button": {
+					"type": "Integer",
+					"default": 1, 
+					"min":1,
+					"max":60,
+					"useForMapping": true }, 
+					
+			} },
+			
+		"Focus Push Button" : {
+			"menu" : "Control",
+			"callback" : "focus_button",
+			"parameters" : {
+					
+				"Button": {
+					"type": "Integer",
+					"default": 1, 
+					"min":1,
+					"max":60,
+					"useForMapping": true }, 
+					
+				"Choice": {
+					"type": "Enum",
+					"options" : {
+						"Press" : 1,
+						"Release" :0 } }		
+			} },
+			
+			
+		"Fader Level" : {
+			"menu" : "Control",
+			"callback" : "fader",
+			"parameters" : {
+			
+				"Select Page": {
+					"type": "Enum",
+					"options" : {
+						"Page1" : 1,
+						"Page2" : 2 } }, 
+					
+				"Fader N°": {
+					"type": "Integer",
+					"default": 1, 
+					"min":1,
+					"max":10,
+					"useForMapping": true }, 
+						
+				"Level": {
+					"type": "Float",
+					"default": 0, 
+					"min":0,
+					"max":255,
+					"useForMapping": true }, 			
+			} },
+			
+		"Foc Fader Level" : {
+			"menu" : "Control",
+			"callback" : "focus_fader",
+			"parameters" : {
+					
+				"Fader N°": {
+					"type": "Integer",
+					"default": 1, 
+					"min":1,
+					"max":10,
+					"useForMapping": true }, 
+						
+				"Level": {
+					"type": "Float",
+					"default": 0, 
+					"min":0,
+					"max":255,
+					"useForMapping": true }, 			
+			} },
+			
+		
+		"Select Page" : {
+			"menu" : "Actions",
+			"callback" : "page",
+			"parameters" : {
+					"Select Page": {
+					"type": "Enum",
+					"options" : {
+						"Page1" : 1,
+						"Page2" : 2 } }, 					
+			} },
+					
+			
+		"Sync" : {
+			"menu" : "Actions",
+			"callback" : "sync",
+			},
+			
+		"Sync Faders" : {
+			"menu" : "Actions",
+			"callback" : "sync_faders",
+			},
+			
+		"Sync Buttons" : {
+			"menu" : "Actions",
+			"callback" : "sync_buttons",
+			},
+			
+		"Reset All" : {
+			"menu" : "Actions",
+			"callback" : "reset",
+			},
+			
+		"Reboot" : {
+			"menu" : "Actions",
+			"callback" : "reboot",
+			},
+
+	}
+}
