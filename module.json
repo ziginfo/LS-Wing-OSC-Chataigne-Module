@@ -51,12 +51,22 @@
 						"Page1" : 1,
 						"Page2" : 2 } }, 
 					
-				"Button N°": {
+				"Select Row (1-6)": {
+					"type": "Enum",
+					"options" : {
+						"1 Row1" : 1,
+						"2 Row2" :2,
+						"3 Select" : 3,
+						"4 Play" :4,
+						"5 Pause" : 5,
+						"6 Mute/Flash" :6  } },
+					
+				"Button N° (1-10)": {
 					"type": "Integer",
 					"default": 1, 
 					"min":1,
-					"max":60,
-					"useForMapping": true }, 
+					"max":10,
+					"useForMapping": true },  
 					
 				"Choice": {
 					"type": "Enum",
@@ -76,12 +86,22 @@
 						"Page1" : 1,
 						"Page2" : 2 } }, 
 					
-				"Button": {
+				"Select Row (1-6)": {
+					"type": "Enum",
+					"options" : {
+						"1 Row1" : 1,
+						"2 Row2" :2,
+						"3 Select" : 3,
+						"4 Play" :4,
+						"5 Pause" : 5,
+						"6 Mute/Flash" :6  } },
+					
+				"Button N° (1-10)": {
 					"type": "Integer",
 					"default": 1, 
 					"min":1,
-					"max":60,
-					"useForMapping": true }, 
+					"max":10,
+					"useForMapping": true },  
 					
 			} },
 			
@@ -90,12 +110,22 @@
 			"callback" : "focus_button",
 			"parameters" : {
 					
-				"Button": {
+				"Select Row (1-6)": {
+					"type": "Enum",
+					"options" : {
+						"1 Row1" : 1,
+						"2 Row2" :2,
+						"3 Select" : 3,
+						"4 Play" :4,
+						"5 Pause" : 5,
+						"6 Mute/Flash" :6  } },
+					
+				"Button N° (1-10)": {
 					"type": "Integer",
 					"default": 1, 
 					"min":1,
-					"max":60,
-					"useForMapping": true }, 
+					"max":10,
+					"useForMapping": true },  
 					
 				"Choice": {
 					"type": "Enum",
@@ -131,7 +161,7 @@
 					"useForMapping": true }, 			
 			} },
 			
-		"Foc Fader Level" : {
+		"Focus Fader Level" : {
 			"menu" : "Control",
 			"callback" : "focus_fader",
 			"parameters" : {
@@ -153,7 +183,7 @@
 			
 		
 		"Select Page" : {
-			"menu" : "Actions",
+			"menu" : "Action",
 			"callback" : "page",
 			"parameters" : {
 					"Select Page": {
@@ -165,27 +195,27 @@
 					
 			
 		"Sync" : {
-			"menu" : "Actions",
+			"menu" : "Action",
 			"callback" : "sync",
 			},
 			
 		"Sync Faders" : {
-			"menu" : "Actions",
+			"menu" : "Action",
 			"callback" : "sync_faders",
 			},
 			
 		"Sync Buttons" : {
-			"menu" : "Actions",
+			"menu" : "Action",
 			"callback" : "sync_buttons",
 			},
 			
 		"Reset All" : {
-			"menu" : "Actions",
+			"menu" : "Action",
 			"callback" : "reset",
 			},
 			
 		"Reboot" : {
-			"menu" : "Actions",
+			"menu" : "Action",
 			"callback" : "reboot",
 			},
 

@@ -23,15 +23,18 @@ function keepAlive() {
 
 /// Controls
 
-function push_button(page, button, val) {
+function push_button(page, row, button, val) {
+	button= ((row-1)*10+button);
 	local.send("/LSW/Button/"+page+"/"+button+"", val);
 }
 
-function toggle_button(page, button, val) {
+function toggle_button(page, row, button, val) {
+	button= ((row-1)*10+button);
 	local.send("/LSW/ToggleButton/"+page+"/"+button+"");
 }
 
-function focus_button(button, val) {
+function focus_button(row, button, val) {
+	button= ((row-1)*10+button);
 	local.send("/LSW/FocusButton/"+button+"", val);
 }
 
