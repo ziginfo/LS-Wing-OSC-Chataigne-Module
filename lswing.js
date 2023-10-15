@@ -36,12 +36,12 @@ function focus_button(button, val) {
 }
 
 function fader(page, fader, val) {
-	val= Math.round (val) ;
+	val= Math.round (255*val) ;
 	local.send("/LSW/Fader/"+page+"/"+fader+"", val);
 }
 
 function focus_fader(fader, val) {
-	val= Math.round (val) ;
+	val= Math.round (255*val) ;
 	local.send("/LSW/FocusFader/"+fader+"", val);
 }
 
