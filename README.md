@@ -2,7 +2,6 @@
 Control the LightShark LS-Wing with Chataigne by OSC
 
 Select Mode-5 (pressing SEL-5 button) at startup of your LS-Wing to use the OSC/UDP-Mode
-
 "OSC Remote Control" must be set to "ON" in the "Wing Settings" !
 
 The LS-Wing is a multitask controller. It has 6 rows of 10 buttons and 10 faders, all of them configurable on two pages.
