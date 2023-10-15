@@ -12,7 +12,6 @@ Initially it controls the LightShark LS-1 and LS-Core (Mode-1 to 3); but it can 
 You can connect to its Web-Server via the default addresses lswing.local or 2.0.0.11 or by a freely configurable (static) IP address to integrate it into your network
 
 The default OSC Ports are :
-
 Incoming: 8000 and Outgoing: 9000 (but can be changed if necessary!)
 
 The LS-Wing can also be controlled by DMX-Remote and the LS-Wing integrate two Nodes (ArtNet or ACN versus DMX).
