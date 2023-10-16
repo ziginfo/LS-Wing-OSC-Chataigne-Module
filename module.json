@@ -5,7 +5,7 @@
 	
 	"version": "1.0",
 	"description": "Allow you to control a LightShark's LS-Wing with Chataigne",
-	"url":"",
+	"url":"https://github.com/ziginfo/LS-Wing-OSC-Chataigne-Module/archive/refs/heads/main.zip",
 	"downloadURL": "",
 	
 	"hasInput": true,
