@@ -100,7 +100,7 @@
 					"default": 1, 
 					"min":1,
 					"max":10,
-					"useForMapping": true },  
+					"useForMapping": true }  
 					
 			} },
 			
@@ -157,7 +157,7 @@
 					"default": 0, 
 					"min":0,
 					"max":1,
-					"useForMapping": true }, 			
+					"useForMapping": true } 			
 			} },
 			
 		"Focus Fader Level" : {
@@ -177,7 +177,7 @@
 					"default": 0, 
 					"min":0,
 					"max":1,
-					"useForMapping": true }, 			
+					"useForMapping": true } 			
 			} },
 			
 		
@@ -189,7 +189,7 @@
 					"type": "Enum",
 					"options" : {
 						"Page1" : 1,
-						"Page2" : 2 } }, 					
+						"Page2" : 2 } } 					
 			} },
 					
 			
