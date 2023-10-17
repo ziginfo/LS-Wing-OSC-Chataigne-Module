@@ -195,27 +195,27 @@
 			
 		"Sync" : {
 			"menu" : "Action",
-			"callback" : "sync",
+			"callback" : "sync"
 			},
 			
 		"Sync Faders" : {
 			"menu" : "Action",
-			"callback" : "sync_faders",
+			"callback" : "sync_faders"
 			},
 			
 		"Sync Buttons" : {
 			"menu" : "Action",
-			"callback" : "sync_buttons",
+			"callback" : "sync_buttons"
 			},
 			
 		"Reset All" : {
 			"menu" : "Action",
-			"callback" : "reset",
+			"callback" : "reset"
 			},
 			
 		"Reboot" : {
 			"menu" : "Action",
-			"callback" : "reboot",
+			"callback" : "reboot"
 			},
 
 	}
