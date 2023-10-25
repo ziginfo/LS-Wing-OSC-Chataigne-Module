@@ -15,4 +15,4 @@ the LS-Wing can also be controlled by DMX-Remote and the LS-Wing integrate two N
 All these features make the LS-Wing quite unique and versatile. 
 
 ### Version 1.2
-added containers for monitoring Fader and Button-Values 
+added containers for monitoring Feedback for Faders and Buttons-Values 
