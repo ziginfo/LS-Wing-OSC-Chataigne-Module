@@ -1,4 +1,4 @@
-## S Wing Control
+## LS Wing Control
 Control your LightShark LS-Wing with Chataigne (OSC implementation)  
 Select Mode 5 (pressing SEL-5 button) at startup of your LS-Wing to use the OSC/UDP-Mode
 
