@@ -127,6 +127,33 @@ function oscEvent(address, args) {
 		var b= n-30 ;
 		if (address == "/LSW/Button/1/"+b){
 			local.values.buttonsPageOne.buttonsRow6.getChild('button'+n).set(args[0]);  } }
+			
+	// Buttons Page2 Row1
+		for (var n = 1; n<= 10; n++) {
+		if (address == "/LSW/Button/2/"+n){
+			local.values.buttonsPageTwo.buttonsRow1.getChild('button'+n).set(args[0]);  } }
+	// Buttons Page2 Row2
+		for (var n = 11; n<= 20; n++) {
+		if (address == "/LSW/Button/2/"+n){
+			local.values.buttonsPageTwo.buttonsRow2.getChild('button'+n).set(args[0]);  } }
+	// Buttons Page2 Row3
+		for (var n = 21; n<= 30; n++) {
+		var b= n+30 ;
+		if (address == "/LSW/Button/2/"+b){
+			local.values.buttonsPageTwo.buttonsRow3.getChild('button'+n).set(args[0]);  } }
+	// Buttons Page2 Row4
+		for (var n = 31; n<= 40; n++) {
+		if (address == "/LSW/Button/2/"+n){
+			local.values.buttonsPageTwo.buttonsRow4.getChild('button'+n).set(args[0]);  } }
+	// Buttons Page2 Row5
+		for (var n = 41; n<= 50; n++) {
+		if (address == "/LSW/Button/2/"+n){
+			local.values.buttonsPageTwo.buttonsRow5.getChild('button'+n).set(args[0]);  } }
+	// Buttons Page2 Row6
+		for (var n = 51; n<= 60; n++) {
+		var b= n-30 ;
+		if (address == "/LSW/Button/2/"+b){
+			local.values.buttonsPageTwo.buttonsRow6.getChild('button'+n).set(args[0]);  } }
 		
 }
 
