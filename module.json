@@ -1,9 +1,9 @@
 {
 	"name": "LS Wing",
 	"type": "OSC",
-	"path": "Hardware",
+	"path": "MIDI Control",
 	
-	"version": "1.0",
+	"version": "1.2",
 	"description": "Allow you to control a LightShark's LS-Wing with Chataigne",
 	"url":"https://github.com/ziginfo/LS-Wing-OSC-Chataigne-Module",
 	"downloadURL": "https://github.com/ziginfo/LS-Wing-OSC-Chataigne-Module/archive/refs/heads/main.zip",
@@ -16,7 +16,8 @@
 
 	"defaults": {
 		"OSC Input": {
-			"localPort" : 9000 },
+			"localPort" : 9000,
+		},
 		"OSC Outputs": {
 			"OSC Output": {
 				"local" : false,
@@ -216,7 +217,7 @@
 		"Reboot" : {
 			"menu" : "Action",
 			"callback" : "reboot"
-			},
+			}
 
 	}
 }
