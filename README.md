@@ -15,7 +15,7 @@ the LS-Wing can also be controlled by DMX-Remote and the LS-Wing integrate two N
 All these features make the LS-Wing quite unique and versatile. 
 
 ### Version 1.2
-added containers for monitoring Feedback from Faders and Buttons-Values *(you may not see the buttons immediatly after having inserted a new LS-Wing-Module...in this case, just restart Chataigne and all will be fine...)*
+added containers for monitoring Feedback from LS-Wing's Faders and Buttons-Values *(you may not see the buttons immediatly after having inserted a new LS-Wing-Module...in this case, just restart Chataigne and all will be fine...)*
 
 Please note that, to obtain feedback from the LS-Wing, you must first have configured "OSC-Commands" on the Faders and/or Buttons..!!  
 (this is done in the Mapping-Setup inside the LS-Wing Configuration-Page)
