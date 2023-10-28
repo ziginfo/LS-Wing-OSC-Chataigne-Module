@@ -1,5 +1,5 @@
 {
-	"name": "LS Wing",
+	"name": "LS Wing OSC",
 	"type": "OSC",
 	"path": "MIDI Control",
 	
@@ -16,7 +16,7 @@
 
 	"defaults": {
 		"OSC Input": {
-			"localPort" : 9000,
+			"localPort" : 9000
 		},
 		"OSC Outputs": {
 			"OSC Output": {
