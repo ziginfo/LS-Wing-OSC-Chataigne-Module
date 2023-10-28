@@ -18,4 +18,7 @@ All these features make the LS-Wing quite unique and versatile.
 added containers for monitoring Feedback from LS-Wing's Faders and Buttons-Values *(you may not see the buttons immediatly after having inserted a new LS-Wing-Module...in this case, just restart Chataigne and all will be fine...)*
 
 Please note that, to obtain feedback from the LS-Wing, you must first have configured "OSC-Commands" on the Faders and/or Buttons..!!  
-(this is done in the Mapping-Setup inside the LS-Wing Configuration-Page)
+(this is done in the Mapping-Setup inside the LS-Wing Configuration-Page)   
+Please note also that the LS-Wing should be connected to the computer when using this module ! As there are sent Sync-Actions automatically, this might make "hang-up" Chataigne when no LS-Wing is connected...  
+If you want to just try the module offline and see, what it looks like... please use the file "lswing_offline.js" instead (and rename it to "lswing.js") 
+
